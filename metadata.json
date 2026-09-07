@@ -1,0 +1,6 @@
+{
+  "name": "A Retomada do Altar",
+  "description": "Manifesto Teológico e Guia de Ação para a Retomada do Tríduo das Almas contra a subversão comercial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

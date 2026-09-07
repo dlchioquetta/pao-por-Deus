@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --sand-stucco: #faf7f2;
+    --sand-surface: #f4efe7;
+    --sand-warm: #ece4d8;
+    --walnut-deep: #2c221c;
+    --walnut-medium: #46382f;
+    --walnut-light: #6a5649;
+    --gold-matte: #b89047;
+    --gold-soft: #c8a35e;
+    --gold-hairline: #dfc89d;
+    --wine-regal: #5c1820;
+    --linen-white: #ffffff;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    background-color: var(--sand-stucco);
+    color: var(--walnut-deep);
+    font-family: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+    line-height: 1.7;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Accessible focus indicators */
+  :focus-visible {
+    outline: 2px solid #b89047;
+    outline-offset: 2px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.06em;
+    color: var(--walnut-deep);
+  }
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-decorative {
+  font-family: 'Cinzel Decorative', 'Cinzel', serif;
+}
+
+.font-garamond {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Subtle architectural stucco and stone textures */
+.bg-stucco-texture {
+  background-color: #faf7f2;
+  background-image: radial-gradient(#e5ddd0 0.8px, transparent 0.8px);
+  background-size: 28px 28px;
+}
+
+/* Textura sacra inspirada em pedra calcária e paredes de mosteiros */
+.bg-sacred-stone {
+  background-color: #faf7f2;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(184, 144, 71, 0.04) 1px, transparent 1px),
+    radial-gradient(circle at 0% 0%, rgba(106, 86, 73, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px, 48px 48px;
+}
+
+/* Treliça sutil de quadrifólio gótico para backgrounds sagrados */
+.bg-sacred-lattice {
+  background-color: #f4efe7;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23b89047' stroke-width='0.6' stroke-opacity='0.12'%3E%3Cpath d='M20 0v40M0 20h40'/%3E%3Ccircle cx='20' cy='20' r='5'/%3E%3Ccircle cx='0' cy='0' r='3'/%3E%3Ccircle cx='40' cy='0' r='3'/%3E%3Ccircle cx='0' cy='40' r='3'/%3E%3Ccircle cx='40' cy='40' r='3'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 40px 40px;
+}
+
+/* Textura de papel pergaminho para cartões e cédulas */
+.bg-sacred-vellum {
+  background-color: #fdfbf7;
+  background-image: radial-gradient(#e8dfd1 0.7px, transparent 0.7px);
+  background-size: 16px 16px;
+}
+
+/* Subtle Italian villa arched border radius */
+.rounded-arch {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+/* Delicate hairline gold border */
+.border-gold-subtle {
+  border-color: rgba(184, 144, 71, 0.35);
+}
+
+.border-gold-focus {
+  border-color: rgba(184, 144, 71, 0.7);
+}
+
+/* Elegant custom scrollbar for modal containers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4efe7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b89047;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8a6825;
+}
+
+/* Print optimizations for Certificate Modal */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  /* Hide page content and modal overlays when printing certificate */
+  header, main, footer, .no-print {
+    display: none !important;
+  }
+
+  .print-certificate-container {
+    position: static !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .print-certificate-card {
+    box-shadow: none !important;
+    border: 2px solid #b89047 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    page-break-inside: avoid;
+  }
+}
+
