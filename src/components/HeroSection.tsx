@@ -57,12 +57,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick }) => {
         <SacredDivider className="my-6" title="Fé • Família • Partilha" />
 
         {/* Subtitle written in clear, noble, 12-year-old accessible language */}
-        <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] max-w-2xl leading-relaxed text-center font-normal">
+        <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] max-w-2xl leading-relaxed md:leading-loose text-center font-normal">
           Antes das máscaras de monstros e do comércio de açúcar, a cristandade unia a paróquia e as famílias 
           no santo escambo: pães caseiros simples com a marca da Cruz distribuídos em troca de orações pelas almas do Purgatório.
         </p>
 
-        <p className="mt-3 font-cormorant italic text-base sm:text-lg text-[#6a5649] max-w-xl leading-relaxed">
+        <p className="mt-3 font-cormorant italic text-base sm:text-lg text-[#6a5649] max-w-xl leading-relaxed md:leading-loose">
           Chegou o momento da nossa comunidade resgatar o Tríduo das Almas através do <strong>Projeto Piloto Paroquial</strong>. 
           Junte-se à mobilização na paróquia ou participe de forma complementar no recanto do seu lar.
         </p>

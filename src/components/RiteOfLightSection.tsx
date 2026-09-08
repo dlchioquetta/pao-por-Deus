@@ -29,7 +29,7 @@ export const RiteOfLightSection: React.FC = () => {
         <SacredDivider className="my-5" />
 
         {/* Narrative - Clear & accessible */}
-        <div className="max-w-2xl mx-auto space-y-4 font-cormorant text-xl sm:text-2xl text-[#46382f] leading-relaxed">
+        <div className="max-w-2xl mx-auto space-y-4 font-cormorant text-xl sm:text-2xl text-[#46382f] leading-relaxed md:leading-loose">
           <p className="italic">
             "Nas noites do Tríduo, as famílias católicas acendiam uma vela na janela com um propósito sagrado: 
             interceder pelas almas dos fiéis defuntos."
@@ -85,7 +85,7 @@ export const RiteOfLightSection: React.FC = () => {
                   <Sun className="w-4 h-4 stroke-[1.4]" />
                   <span>O Sufrágio Católico</span>
                 </div>
-                <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed">
+                <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed md:leading-loose">
                   A vela acesa é sinal de oração contínua da Igreja Militante pela Igreja Padecente. 
                   Lembramos que as almas no Purgatório não podem mais merecer por si mesmas, 
                   mas dependem do nosso amor e das nossas preces para alcançar a visão beatífica de Deus.
@@ -97,7 +97,7 @@ export const RiteOfLightSection: React.FC = () => {
                   <Moon className="w-4 h-4 stroke-[1.4]" />
                   <span>O Vazio Comercial</span>
                 </div>
-                <p className="font-cormorant text-base sm:text-lg text-[#6a5649] leading-relaxed">
+                <p className="font-cormorant text-base sm:text-lg text-[#6a5649] leading-relaxed md:leading-loose">
                   O comércio mundano substituiu a reverência e a caridade pelos mortos por sustos, 
                   monstros e brincadeiras que apagam a eternidade e reduzem um momento sagrado a mero consumo.
                 </p>

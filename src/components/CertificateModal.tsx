@@ -96,7 +96,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({
         </div>
 
         {/* Certificate Body */}
-        <div className="p-5 sm:p-8 md:p-10 text-center space-y-4 sm:space-y-5 relative bg-[#fdfbf7] overflow-y-auto">
+        <div className="p-5 sm:p-8 md:p-10 text-center space-y-4 sm:space-y-5 relative bg-sacred-vellum overflow-y-auto">
           {/* Subtle Arch Outline */}
           <div className="absolute inset-2 sm:inset-3 border border-[#b89047]/20 pointer-events-none" />
 
@@ -115,7 +115,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({
             <div className="w-16 h-[1px] bg-[#b89047]/40 mx-auto mt-2 sm:mt-2.5" />
           </div>
 
-          <p className="font-cormorant text-base sm:text-lg md:text-xl italic text-[#46382f] leading-relaxed max-w-lg mx-auto">
+          <p className="font-cormorant text-base sm:text-lg md:text-xl italic text-[#46382f] leading-relaxed md:leading-loose max-w-lg mx-auto">
             Certificamos solenemente que esta família assumiu compromisso no resgate do Tríduo das Almas 
             e no restabelecimento do escambo sagrado de pão em troca de orações:
           </p>

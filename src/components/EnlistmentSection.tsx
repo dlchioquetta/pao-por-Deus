@@ -116,7 +116,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
             <span className="font-cinzel text-[11px] uppercase tracking-[0.16em] text-[#8a6825] font-semibold block mb-1">
               Princípio Reitor do Projeto Piloto
             </span>
-            <p className="font-cormorant italic text-lg sm:text-xl text-[#2c221c] leading-relaxed">
+            <p className="font-cormorant italic text-lg sm:text-xl text-[#2c221c] leading-relaxed md:leading-loose">
               "Não propomos uma versão católico-tímida do Halloween americano. Propomos o combate pastoral direto. 
               O objetivo é restabelecer a soberania da Cruz sobre o tempo por meio de ações concretas assentes na simetria 
               de <strong className="not-italic text-[#8a6825] font-semibold">PÃO EM TROCA DE ORAÇÕES</strong>."
@@ -126,7 +126,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
             </span>
           </div>
 
-          <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] max-w-3xl mx-auto leading-relaxed">
+          <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] max-w-3xl mx-auto leading-relaxed md:leading-loose">
             O objetivo primordial é a <strong className="font-semibold text-[#2c221c]">inscrição de famílias para atuarem no Projeto Piloto na Paróquia</strong>. 
             A realização individual em casa é uma alternativa secundária para quem não puder estar presente. 
             Conheça as 4 fases que serão executadas:
@@ -152,7 +152,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
                   </h3>
                 </div>
               </div>
-              <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed mb-3">
+              <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed md:leading-loose mb-3">
                 Formação profunda e séria de catequistas, padres e leigos. O ensino se apoia na gravidade das realidades do Purgatório (CIC 1030), 
                 no intercâmbio de bens da Comunhão dos Santos (CIC 946), no valor redentor da Esmola (CIC 2447) e na condenação 
                 inegociável das artes mágicas e esotéricas (CIC 2115).
@@ -180,7 +180,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
                   </h3>
                 </div>
               </div>
-              <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed mb-3">
+              <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed md:leading-loose mb-3">
                 Organizada na paróquia antes do início do Tríduo com as famílias. Os adultos lideram o trabalho manual de amassar 
                 o trigo para que as crianças aprendam pelo testemunho prático. Elimina-se o preciosismo moderno com receitas: 
                 trata-se de um ato físico e penitencial de fazer o pão comunitário, marcando as broas com o sinal da Cruz.
@@ -208,7 +208,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
                   </h3>
                 </div>
               </div>
-              <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed mb-3">
+              <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed md:leading-loose mb-3">
                 Distribuição massiva em três frentes:
                 <span className="block mt-1"><strong>1. Famílias Assistidas:</strong> recebem as broas assumindo a obrigação de rezar pelas almas e preenchem o Cartão dos Defuntos para a paróquia inteira sufragar nas Missas.</span>
                 <span className="block mt-1"><strong>2. Ação Direta de Rua:</strong> famílias levam cotas de pães para vizinhos: <em>"Aqui está o pão; a sua parte é rezar pelas almas hoje."</em></span>
@@ -237,7 +237,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
                   </h3>
                 </div>
               </div>
-              <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed mb-3">
+              <p className="font-cormorant text-base sm:text-lg text-[#46382f] leading-relaxed md:leading-loose mb-3">
                 Bane-se a abóbora comercial e resgatam-se as tradicionais Lanternas de Turnipo (Nabo ou beterraba) com velas 
                 na janela na véspera. No Dia de Todos os Santos, a paróquia realiza a solene Procissão de Velas, depositando os 
                 Cartões dos Defuntos e intenções aos pés do Altar, culminando na Santa Missa no Dia de Finados.
@@ -316,7 +316,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
                       </span>
                     )}
                   </div>
-                  <p className="font-cormorant text-sm text-[#5d4a3d] leading-relaxed">
+                  <p className="font-cormorant text-sm text-[#5d4a3d] leading-relaxed md:leading-loose">
                     Quero me envolver presencialmente: na oficina comunitária de pães, na entrega às famílias assistidas, na procissão ou doando trigo para a paróquia.
                   </p>
                 </button>
@@ -340,7 +340,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
                       Opção Secundária
                     </span>
                   </div>
-                  <p className="font-cormorant text-sm text-[#5d4a3d] leading-relaxed">
+                  <p className="font-cormorant text-sm text-[#5d4a3d] leading-relaxed md:leading-loose">
                     Não posso estar presencialmente na paróquia, mas quero viver a tradição em família: assando pães caseiros com a Cruz e colocando a vela na janela de casa.
                   </p>
                 </button>
@@ -452,7 +452,7 @@ export const EnlistmentSection: React.FC<EnlistmentSectionProps> = ({ onEnlisted
                   Cartão dos Defuntos • Nomes para o Altar (Opcional)
                 </label>
               </div>
-              <p className="font-cormorant text-xs sm:text-sm text-[#6a5649] mb-2 leading-relaxed">
+              <p className="font-cormorant text-xs sm:text-sm text-[#6a5649] mb-2 leading-relaxed md:leading-loose">
                 Conforme a Fase 3 e 4 do projeto, as intenções serão depositadas aos pés do Altar durante a Procissão de Velas e sufragadas nas Missas de Finados. Escreva abaixo os nomes dos seus entes queridos falecidos:
               </p>
               <textarea

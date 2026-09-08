@@ -49,7 +49,7 @@ export const HistorySection: React.FC = () => {
 
           <SacredDivider className="my-5" />
 
-          <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] max-w-2xl mx-auto leading-relaxed">
+          <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] max-w-2xl mx-auto leading-relaxed md:leading-loose">
             Do pão das almas e da caridade monástica à chantagem moderna do consumo — 
             compreenda a linhagem completa de como o sufrágio das almas foi substituído pelo comércio, 
             e como o seu lar pode restaurar a verdade.
@@ -115,7 +115,7 @@ export const HistorySection: React.FC = () => {
 
                   {/* O Fato - Main Narrative */}
                   <div className="space-y-2">
-                    <p className="font-cormorant text-lg sm:text-xl text-[#46382f] leading-relaxed">
+                    <p className="font-cormorant text-lg sm:text-xl text-[#46382f] leading-relaxed md:leading-loose">
                       <strong className="font-cinzel text-xs uppercase tracking-wider text-[#8a6825] font-semibold mr-1.5 not-italic">
                         O Fato:
                       </strong>
@@ -137,7 +137,7 @@ export const HistorySection: React.FC = () => {
                       </button>
 
                       {isExpanded && (
-                        <div className="mt-2.5 p-3.5 sm:p-4 bg-[#f4efe7]/85 border-l-2 border-[#b89047] text-base sm:text-lg font-cormorant italic text-[#46382f] leading-relaxed animate-fadeIn">
+                        <div className="mt-2.5 p-3.5 sm:p-4 bg-[#f4efe7]/85 border-l-2 border-[#b89047] text-base sm:text-lg font-cormorant italic text-[#46382f] leading-relaxed md:leading-loose animate-fadeIn">
                           <strong className="font-cinzel text-[11px] uppercase tracking-wider text-[#8a6825] font-semibold not-italic block mb-1">
                             O Significado:
                           </strong>
@@ -157,7 +157,7 @@ export const HistorySection: React.FC = () => {
           <CornerFlourish position="top-left" />
           <CornerFlourish position="bottom-right" />
 
-          <p className="font-cormorant italic text-xl sm:text-2xl text-[#2c221c] leading-relaxed">
+          <p className="font-cormorant italic text-xl sm:text-2xl text-[#2c221c] leading-relaxed md:leading-loose">
             "A chama da tradição nunca se apagou. Ela só estava esperando por você e sua família 
             para voltar a iluminar o mundo com amor e fé."
           </p>

@@ -25,7 +25,7 @@ export const DiagnosisSection: React.FC = () => {
           
           <SacredDivider className="my-5" />
 
-          <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] max-w-2xl mx-auto leading-relaxed">
+          <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] max-w-2xl mx-auto leading-relaxed md:leading-loose">
             A verdadeira alegria não precisa de barulho nem de coisas descartáveis. 
             Veja a diferença entre a moda passageira e o que realmente tem valor para a sua família.
           </p>
@@ -52,7 +52,7 @@ export const DiagnosisSection: React.FC = () => {
                 O Barulho e o Descartável
               </h3>
 
-              <p className="font-cormorant text-lg sm:text-xl text-[#46382f] leading-relaxed mb-5">
+              <p className="font-cormorant text-lg sm:text-xl text-[#46382f] leading-relaxed md:leading-loose mb-5">
                 Máscaras feias de borracha, baldinhos de plástico descartáveis e sustos comprados prontos. 
                 Tudo é consumido em poucas horas e, na manhã seguinte, só sobram embalagens 
                 vazias jogadas na rua e nenhum ensinamento de verdade.
@@ -104,7 +104,7 @@ export const DiagnosisSection: React.FC = () => {
                 O Pão Feito em Casa e a Oração
               </h3>
 
-              <p className="font-cormorant text-lg sm:text-xl text-[#2c221c] leading-relaxed mb-5">
+              <p className="font-cormorant text-lg sm:text-xl text-[#2c221c] leading-relaxed md:leading-loose mb-5">
                 O cheiro gostoso de pão caseiro simples e quentinho saindo do forno da família. 
                 Pãezinhos com a marca da Cruz, repartidos com carinho com parentes e vizinhos, 
                 pedindo em troca o sufrágio sagrado pelas almas do Purgatório.
@@ -141,7 +141,7 @@ export const DiagnosisSection: React.FC = () => {
             <SacredFlorentineCross size={18} className="text-[#b89047]" />
           </div>
 
-          <p className="font-cormorant italic text-xl sm:text-2xl text-[#2c221c] leading-relaxed">
+          <p className="font-cormorant italic text-xl sm:text-2xl text-[#2c221c] leading-relaxed md:leading-loose">
             "A verdadeira beleza não precisa de barulho para se fazer notar. 
             Quando uma família acende uma vela na janela e divide um pãozinho feito em casa, 
             a paz de Deus enche o lar e toda a escuridão vai embora."

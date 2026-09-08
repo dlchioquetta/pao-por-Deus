@@ -40,7 +40,7 @@ export const PracticalSection: React.FC<PracticalSectionProps> = ({
 
           <SacredDivider className="my-5" />
 
-          <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] leading-relaxed">
+          <p className="font-cormorant text-xl sm:text-2xl text-[#46382f] leading-relaxed md:leading-loose">
             Se a sua família não puder comparecer à oficina comunitária da paróquia ou quiser reproduzir o rito 
             no recesso da sua casa, aqui está o guia prático em três passos simples e santos: 
             fazer os pãezinhos caseiros com a Cruz, rezar pelas almas do Purgatório e acender a vela na janela.
@@ -74,7 +74,7 @@ export const PracticalSection: React.FC<PracticalSectionProps> = ({
                   {pillar.title}
                 </h3>
 
-                <p className="font-cormorant text-lg text-[#46382f] leading-relaxed mb-4">
+                <p className="font-cormorant text-lg text-[#46382f] leading-relaxed md:leading-loose mb-4">
                   {pillar.description}
                 </p>
               </div>
@@ -105,7 +105,7 @@ export const PracticalSection: React.FC<PracticalSectionProps> = ({
                 As Orações pelas Almas e a Partilha
               </h3>
 
-              <p className="font-cormorant text-lg sm:text-xl text-[#46382f] leading-relaxed mb-6">
+              <p className="font-cormorant text-lg sm:text-xl text-[#46382f] leading-relaxed md:leading-loose mb-6">
                 Qualquer pão caseiro simples ou broa feita em casa, com a marca da Santa Cruz, serve para este ato nobre de caridade. 
                 O essencial não é um preparo complexo, mas o amor cristão ao partilhar o pão e sufragá-lo com orações pelas almas do Purgatório.
               </p>
@@ -129,7 +129,7 @@ export const PracticalSection: React.FC<PracticalSectionProps> = ({
                 <span>O Que Falar ao Entregar o Pãozinho</span>
               </div>
 
-              <blockquote className="font-cormorant italic text-lg sm:text-xl text-[#2c221c] leading-relaxed">
+              <blockquote className="font-cormorant italic text-lg sm:text-xl text-[#2c221c] leading-relaxed md:leading-loose">
                 "Preparamos este pãozinho caseiro simples com a marca da Cruz em família para você! 
                 Em troca deste presente, nós lhe pedimos uma oração pelas almas do Purgatório e pelos falecidos da sua família: podemos rezar um Pai-Nosso juntos?"
               </blockquote>

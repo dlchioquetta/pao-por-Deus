@@ -93,7 +93,7 @@ export const PrayersModal: React.FC<PrayersModalProps> = ({ isOpen, onClose }) =
             <button
               key={prayer.id}
               onClick={() => setSelectedPrayerId(prayer.id)}
-              className={`px-3 sm:px-4 py-2.5 min-h-[44px] flex items-center font-cinzel text-[11px] sm:text-xs uppercase tracking-wider transition-all border-b-2 whitespace-nowrap cursor-pointer ${
+              className={`px-3 sm:px-4 py-2.5 min-h-[44px] flex items-center font-cinzel text-[11px] sm:text-xs uppercase tracking-wider transition-all border-b-2 whitespace-nowrap cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#b89047]/40 ${
                 selectedPrayerId === prayer.id
                   ? 'border-[#8a6825] text-[#2c221c] font-semibold bg-[#faf7f2]'
                   : 'border-transparent text-[#6a5649] hover:text-[#2c221c]'
@@ -129,7 +129,7 @@ export const PrayersModal: React.FC<PrayersModalProps> = ({ isOpen, onClose }) =
                 <SacredQuatrefoil size={11} className="text-[#8a6825]" />
                 <span>Em Português</span>
               </span>
-              <div className="font-cormorant text-base sm:text-lg text-[#2c221c] leading-relaxed whitespace-pre-line">
+              <div className="font-cormorant text-base sm:text-lg text-[#2c221c] leading-relaxed md:leading-loose whitespace-pre-line">
                 {currentPrayer.portugueseText}
               </div>
             </div>
@@ -141,7 +141,7 @@ export const PrayersModal: React.FC<PrayersModalProps> = ({ isOpen, onClose }) =
                   <SacredQuatrefoil size={11} className="text-[#8a6825]" />
                   <span>Em Latim (Tradição Antiga)</span>
                 </span>
-                <div className="font-cormorant text-base sm:text-lg text-[#46382f] italic leading-relaxed whitespace-pre-line">
+                <div className="font-cormorant text-base sm:text-lg text-[#46382f] italic leading-relaxed md:leading-loose whitespace-pre-line">
                   {currentPrayer.latinText}
                 </div>
               </div>
